@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "AktivGroteskBlack";
+    src: url("../fonts/Aktiv\ Grotesk/TTF/AktivGrotesk-Black.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "AktivGroteskXBold";
+    src: url("../fonts/Aktiv\ Grotesk/TTF/AktivGrotesk-XBold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "AktivGroteskBold";
+    src: url("../fonts/Aktiv\ Grotesk/TTF/AktivGrotesk-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "AktivGroteskMedium";
+    src: url("../fonts/Aktiv\ Grotesk/TTF/AktivGrotesk-Medium.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "AktivGroteskLight";
+    src: url("../fonts/Aktiv\ Grotesk/TTF/AktivGrotesk-Light.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "AktivGroteskThin";
+    src: url("../fonts/Aktiv\ Grotesk/TTF/AktivGrotesk-Thin.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "AktivGroteskRegular";
+    src: url("../fonts/Aktiv\ Grotesk/TTF/AktivGrotesk-Regular.ttf") format('truetype');
+}
+
+/* Italics */
+@font-face {
+    font-family: "AktivGroteskLightItalic";
+    src: url("../fonts/Aktiv\ Grotesk/TTF/AktivGrotesk-LightItalic.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "AktivGroteskItalic";
+    src: url("../fonts/Aktiv\ Grotesk/TTF/AktivGrotesk-Italic.ttf") format('truetype');
+}

@@ -1,0 +1,34 @@
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+    padding: 20px 50px;
+}
+
+.header-left {
+    font-family: AktivGroteskBlack;
+    font-size: 2em
+}
+
+.header-right {
+    font-family: AktivGroteskMedium;
+    font-size: 1.25em;
+}
+
+.header-link {
+    padding: 5px 0px;
+    margin: 0px 10px;
+    text-align: center;
+    transition: all 1s ease;
+}
+
+.header-active-link {
+    border-bottom: 2px solid black;
+}

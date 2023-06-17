@@ -1,0 +1,61 @@
+.banner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.article-image {
+    width: 100%;
+    display: block;
+    margin: 50px auto;
+}
+
+.article-body {
+    width: 40vw;
+    margin: auto;
+}
+
+.article-body h1 {
+    font-family: AktivGroteskBlack;
+    font-size: 5em;
+    line-height: 1.15em;
+}
+
+.article-body p {
+    font-family: AktivGroteskRegular;
+    font-size: 1.5em;
+}
+
+.article-external-link {
+    display: flex;
+    justify-content: center;;
+    width: 70vw;
+    margin: 150px auto;
+    
+}
+
+.article-link {
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    margin: 0px 15px 0px 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: AktivGroteskMedium;
+    font-size: 1.5em;
+    transition: all .5s ease;
+}
+
+.article-link:hover {
+    border-bottom: 2px solid black;
+}
+
+.article-video {
+    border: 2px solod black;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
