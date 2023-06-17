@@ -19,21 +19,23 @@ function ArticlePage() {
     <>
       <section id="article">
         <div className="banner">
-          <img src={require(`../assets/${article.images[0]}`)} />
+          <img src={require(`../assets/${article.images[0]}`)} alt="" />
         </div>
 
         <div className="article-body">
           <h1>{article.title.toUpperCase()}</h1>
 
           {article.content.map((paragraph, i) => {
-            if (paragraph == "image" && index < article.images.length) {
+            if (paragraph === "image" && index < article.images.length) {
               return (
                 <img
+                  key={i}
                   src={require(`../assets/${article.images[index++]}`)}
                   className="article-image"
+                  alt=""
                 />
               );
-            } else if (paragraph == "video" && index < article.images.length) {
+            } else if (paragraph === "video" && index < article.images.length) {
               return (
                 <video
                   className="article-video"
@@ -58,7 +60,7 @@ function ArticlePage() {
         </div>
 
         <div className="article-external-link">
-          {demo_link == "" ? null : (
+          {demo_link === "" ? null : (
             <a className="article-link" href={demo_link}>
               Demo
             </a>

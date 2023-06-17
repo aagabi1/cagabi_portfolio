@@ -18,14 +18,14 @@ function Header() {
       </div>
       <div className="header-right">
         <a
-          className={`header-link ${path == "/" ? "header-active-link" : ""}`}
+          className={`header-link ${path === "/" ? "header-active-link" : ""}`}
           href="/"
         >
           Work
         </a>
         <a
           className={`header-link ${
-            path == "/contact" ? "header-active-link" : ""
+            path === "/contact" ? "header-active-link" : ""
           }`}
           href="/contact"
         >

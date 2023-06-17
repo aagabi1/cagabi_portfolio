@@ -5,7 +5,7 @@ function GalleryCard({ id, tag, image, demo: demo_link, source: source_link }) {
     <div className="card">
       <Link to={`/articles/${id}`}>
         <div className="card-image">
-          <img src={require(`../assets/${image}`)} />
+          <img src={require(`../assets/${image}`)} alt="" />
         </div>
       </Link>
 
@@ -13,7 +13,7 @@ function GalleryCard({ id, tag, image, demo: demo_link, source: source_link }) {
         <div className="card-description">
           <h3>{tag}</h3>
           <div className="card-description-link">
-            {demo_link == "" ? null : (
+            {demo_link === "" ? null : (
               <a className="card-link" href={demo_link}>
                 Demo
               </a>

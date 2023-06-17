@@ -6,7 +6,7 @@ function ContactPage() {
   return (
     <section id="contact">
       <div className="contact-image">
-        <img src={require("../assets/pfp01.jpg")} />
+        <img src={require("../assets/pfp01.jpg")} alt="" />
       </div>
       <div className="contact-description">
         <p>{aboutMe.content[0]}</p>
