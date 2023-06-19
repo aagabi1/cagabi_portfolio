@@ -69,10 +69,6 @@ section#contact {
         grid-template-columns: 1fr;
     }
 
-    .contact-image {
-        min-height: 400px;
-    }
-
     .contact-description {
         flex: 1;
         margin: auto;
