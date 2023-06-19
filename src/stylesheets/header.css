@@ -7,9 +7,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-sizing: border-box;
     width: 90vw;
     margin: auto;
-    padding: 20px 50px;
+    padding: 20px 0px;
 }
 
 .header-left {
@@ -23,12 +24,54 @@ header {
 }
 
 .header-link {
+    display: inline;
     padding: 5px 0px;
-    margin: 0px 10px;
+    margin-left: 25px;
     text-align: center;
-    transition: all 1s ease;
 }
 
 .header-active-link {
     border-bottom: 2px solid black;
+}
+
+.header-menu-image {
+    max-width: 30px;
+    margin: 0 10px;
+}
+
+.menu-modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.menu-modal-inner {
+    width: 50%;
+    margin: 45% auto;
+    text-align: center;
+}
+
+.menu-modal-link {
+    display: block;
+    font-size: 2em;
+}
+
+.menu-modal-active-link {
+    border-bottom: .1em solid black;
+}
+
+.menu-modal-close {
+    position: absolute;
+    top: 55px;
+    right: 3.5vw;
+}
+
+button {
+    border: none;
+    background: none;
+    font: inherit;
+    margin: 0;
 }

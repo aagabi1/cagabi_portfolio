@@ -5,13 +5,6 @@ section#contact {
     margin: auto;
 }
 
-.contact-description {
-    flex: 1;
-    margin: 0 50px;
-    font-family: AktivGroteskMedium;
-    font-size: 1.5vw;
-}
-
 .contact-image {
     flex: 2;
 }
@@ -20,8 +13,89 @@ section#contact {
     width: 100%;
 }
 
+.contact-description {
+    flex: 1;
+    margin: 0 50px;
+    font-family: AktivGroteskRegular;
+    font-size: 1.5vw;
+}
+
+.contact-info-description {
+    display: flex;
+    width: 90vw;
+    margin: 50px auto;
+    padding-top: 20px;
+}
+
+.contact-info-details {
+    flex: 0.2 1 auto;
+    font-family: AktivGroteskRegular;
+}
+
+.contact-info-details-inner {
+    padding: 10px 0;
+}
+
+.contact-info-details-inner p {
+    line-height: 0.5em;
+    font-size: 1.25vw;
+}
+
+.contact-info-description ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.25vw;
+}
+
+.contact-details-info-inner-link {
+    text-decoration: none;
+    cursor: pointer;
+}
+.em {
+    font-family: AktivGroteskMedium;
+    font-size: 2vw;
+}
+
 .italic {
     font-family: AktivGroteskItalic;
     font-size: smaller;
 }
 
+
+@media (max-width: 780px) {
+    section#contact {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .contact-image {
+        min-height: 400px;
+    }
+
+    .contact-description {
+        flex: 1;
+        margin: 50px 50px;
+        font-size: 3vw;
+    }
+
+    .contact-info-description {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 80vw;
+        margin: auto;
+    }
+
+    .contact-info-details-inner p {
+    font-size: 2.25vw;
+    }
+
+    .contact-info-description ul {
+        font-size: 2.25vw;
+    }
+
+    .em {
+        font-family: AktivGroteskMedium;
+        font-size: 3vw;
+    }
+}
