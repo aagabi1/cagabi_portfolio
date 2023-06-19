@@ -57,6 +57,8 @@ header {
 .menu-modal-link {
     display: block;
     font-size: 2em;
+    color: black;
+    text-align: center;
 }
 
 .menu-modal-active-link {

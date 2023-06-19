@@ -13,6 +13,7 @@ function ContactPage() {
           <p>{aboutMe.content[0]}</p>
         </div>
       </section>
+
       <section id="contact-info">
         <div className="contact-info-description">
           <div className="contact-info-details">

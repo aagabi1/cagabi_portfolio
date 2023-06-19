@@ -75,7 +75,7 @@ section#contact {
 
     .contact-description {
         flex: 1;
-        margin: 50px 50px;
+        margin: auto;
         font-size: 3vw;
     }
 
