@@ -14,14 +14,13 @@
 }
 
 .article-body {
-    width: 40vw;
+    width: 50vw;
     margin: auto;
 }
 
 .article-body h1 {
     font-family: AktivGroteskBlack;
-    font-size: 5em;
-    line-height: 1.15em;
+    font-size: 3.5vw;
 }
 
 .article-body p {
@@ -58,4 +57,14 @@
     width: 100%;
     display: block;
     margin: auto;
+}
+
+@media (max-width: 780px) {
+    .article-body h1 {
+        font-size: 5vw;
+    }
+    .article-body {
+        width: 80vw;
+        margin: auto;
+    }
 }

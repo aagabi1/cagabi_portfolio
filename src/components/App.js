@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import ArticlePage from "./ArticlePage";
 import NotFoundPage from "./NotFoundPage";
 import ContactPage from "./ContactPage";
+import ResumePage from "./ResumePage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/resume" element={<ResumePage />} />
           <Route path="/articles/:articleId" element={<ArticlePage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>

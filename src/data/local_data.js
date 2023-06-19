@@ -20,8 +20,8 @@ const local_data = [
       "All the projects were built in processing using the python framework.",
     ],
     images: ["processing.jpg", "car.gif", "car_chase.gif"],
-    demo_link: "/processing",
-    source_link: "Link 1B",
+    demo_link: "",
+    source_link: "https://github.com/aagabi1/processing-demos.git",
   },
 
   {
@@ -43,7 +43,7 @@ const local_data = [
     ],
     images: ["prototyping.jpg", "processing_car.png"],
     demo_link: "",
-    source_link: "Link 2B",
+    source_link: "https://github.com/aagabi1/rfid-soundbox.git",
   },
 
   {
@@ -66,8 +66,8 @@ const local_data = [
       "I'm always intrigued by the humble beginnings of complex concepts. It's techniques like theses that formed the basis for making opposing gunmen in Call of Duty feel more believeable. Feel free to use the algorithm to make your enemies appear smarter.",
     ],
     images: ["game_dev.jpg", "game_dev_demo02.png", "game_dev_demo01.gif"],
-    demo_link: "/game_dev",
-    source_link: "Link 3B",
+    demo_link: "",
+    source_link: "https://github.com/aagabi1/unity-enemy-AI.git",
   },
 
   {
@@ -99,8 +99,8 @@ const local_data = [
       "schematic04.jpg",
       "neopixel.gif",
     ],
-    demo_link: "/assembly",
-    source_link: "Link 4B",
+    demo_link: "",
+    source_link: "https://github.com/aagabi1/neopixel-controller.git",
   },
 
   {
@@ -122,7 +122,7 @@ const local_data = [
     ],
     images: ["todo_list.jpg", "todo_list_demo01.gif", "todo_list_demo02.gif"],
     demo_link: "",
-    source_link: "Link 4B",
+    source_link: "https://github.com/aagabi1/react-todo-list.git",
   },
 
   {
