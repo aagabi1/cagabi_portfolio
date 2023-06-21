@@ -1,3 +1,4 @@
+
 section#gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -27,37 +28,37 @@ section#gallery {
     height: 40%;
     position: absolute;
     bottom: -25px;
+    padding-bottom: 10px;
     opacity: 0;
     color: aliceblue;
-    line-height: 1em;
     background-color: black;
-    transition: all .5s ease;
+    transition: bottom .5s ease, opacity .5s ease;
 }
 
-.card:hover > .card-description-absolute {
+.card:hover .card-description-absolute {
     bottom: 0px;
     opacity: 1;
 }
 
 .card-description {
-    padding: 0px 10px 0px 30px;
+    padding: 0px 20px 0px 30px;
     font-family: AktivGroteskMedium;
     font-size: 1.5em;
+}
+
+.card-description-link {
+    line-height: 0;
 }
 
 .card-link {
     color: aliceblue;
     text-decoration: none;
+    padding-bottom: 3px;
     border-bottom: 2px solid black;
-    margin: 0px 15px 0px 0px;
-    padding-bottom: 5px;
     text-align: center;
-    transition: all .5s ease;
+    border-bottom: 1px solid aliceblue;
 }
 
-.card-link:hover {
-    border-bottom: 2px solid aliceblue;
-}
 
 @media (max-width: 780px) {
     section#gallery {
@@ -70,17 +71,20 @@ section#gallery {
         width: 100%;
         height: 45%;
         position: absolute;
+        line-height: 3vw;
         bottom: 0;
         opacity: 1;
         color: aliceblue;
         background-color: black;
     }
 
-    .card-description {
-        font-size: 1em;
+    .card-description h3 {
+        line-height: 1em;
+        font-size: 3.5vw;
     }
 
     .card-description-link {
         line-height: 0;
+        font-size: 3vw;
     }
 }

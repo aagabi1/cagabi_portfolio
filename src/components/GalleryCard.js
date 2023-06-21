@@ -7,24 +7,24 @@ function GalleryCard({ id, tag, image, demo: demo_link, source: source_link }) {
         <div className="card-image">
           <img src={require(`../assets/${image}`)} alt="" />
         </div>
-      </Link>
 
-      <div className="card-description-absolute">
-        <div className="card-description">
-          <h3>{tag}</h3>
-          <div className="card-description-link">
-            {demo_link === "" ? null : (
-              <a className="card-link" href={demo_link}>
-                Demo
+        <div className="card-description-absolute">
+          <div className="card-description">
+            <h3>{tag}</h3>
+            <div className="card-description-link">
+              {demo_link === "" ? null : (
+                <a className="card-link" href={demo_link}>
+                  Demo
+                </a>
+              )}
+
+              <a className="card-link" href={source_link}>
+                Source code
               </a>
-            )}
-
-            <a className="card-link" href={source_link}>
-              Source
-            </a>
+            </div>
           </div>
         </div>
-      </div>
+      </Link>
     </div>
   );
 }

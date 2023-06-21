@@ -77,3 +77,9 @@ button {
     font: inherit;
     margin: 0;
 }
+
+@media (max-width: 780px) {
+    .header-left {
+        font-size: 4vw;
+    }
+}
